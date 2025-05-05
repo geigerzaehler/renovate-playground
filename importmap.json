@@ -6,7 +6,7 @@
   ],
   "imports": {
     "@shoelace-style/shoelace": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.20.0/dist/shoelace.js",
-    "jquery": "https://ga.jspm.io/npm:jquery@3.7.0/dist/jquery.js"
+    "jquery": "https://ga.jspm.io/npm:jquery@3.7.1/dist/jquery.js"
   },
   "scopes": {
     "https://ga.jspm.io/": {

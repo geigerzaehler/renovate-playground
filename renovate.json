@@ -11,7 +11,8 @@
   "packageRules": [
     {
       "groupName": "minor and patch",
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepTypes": ["!pnpm.overrides"]
     }
   ],
   "customManagers": [

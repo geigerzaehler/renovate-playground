@@ -18,7 +18,8 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["importmap.json"],
+      "managerFilePatterns": ["importmap.json"],
+      "depTypeTemplate": "dependencies",
       "datasourceTemplate": "npm",
       "matchStrings": [
         "https:\\/\\/ga\\.jspm\\.io\\/npm:(?<depName>@?[^@]+)@(?<currentValue>[^\\/]+)\\/",

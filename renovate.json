@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "timezone": "Europe/Berlin",
+  "semanticCommits": "disabled",
+  "lockFileMaintenance": {
+    "enabled": false,
+    "rebaseStalePrs": false,
+    "schedule": ["before 4:00"]
+  },
+  "packageRules": [
+    {
+      "groupName": "minor and patch",
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepTypes": ["!pnpm.overrides"]
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["importmap.json"],
+      "datasourceTemplate": "npm",
+      "matchStrings": [
+        "https:\\/\\/ga\\.jspm\\.io\\/npm:(?<depName>@?[^@]+)@(?<currentValue>[^\\/]+)\\/",
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/(?<depName>@?[^@]+)@(?<currentValue>[^\\/]+)\\/"
+      ]
+    }
+  ]
+}

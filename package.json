@@ -1,0 +1,16 @@
+{
+  "private": "true",
+  "type": "module",
+  "dependencies": {
+    "@shoelace-style/shoelace": "=2.20.1"
+  },
+  "devDependencies": {
+    "jspm": "^3.3.4"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "pnpm": {
+    "overrides": {
+      "@jspm/generator": "2.5.0"
+    }
+  }
+}

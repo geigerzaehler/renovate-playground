@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@jspm/generator': 2.5.0
+  '@jspm/generator': 2.5.1
 
 importers:
 
@@ -190,8 +190,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@jspm/generator@2.5.0':
-    resolution: {integrity: sha512-gfzMy2QnN6U+TA/1HkhMmGn3oSU2IxwTtV5C9GnDBnvliyFSI5UJBH9iPiTl0va8G6Krclqv9NpEnzJzWPoaDQ==}
+  '@jspm/generator@2.5.1':
+    resolution: {integrity: sha512-Y0R/S48f7IDQCvhtZ1rOQAqtvgMbMu07JepqH5s6BEeRNxyuOmU6O+FSiMmIRQoJ8P7skCMSzBbiZ1B82gZkSw==}
 
   '@jspm/import-map@1.1.0':
     resolution: {integrity: sha512-vmk583YnMi4fmqeXbWIBiyzFu+vqVZ5VCoaa6H4xeSQy5E6JAWtmcq72OAMFTeSTqw7xxHQIJFq2OlHKdUWitQ==}
@@ -870,7 +870,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@jspm/generator@2.5.0':
+  '@jspm/generator@2.5.1':
     dependencies:
       '@babel/core': 7.27.1
       '@babel/plugin-syntax-import-attributes': 7.27.1(@babel/core@7.27.1)
@@ -1116,7 +1116,7 @@ snapshots:
 
   jspm@3.3.5:
     dependencies:
-      '@jspm/generator': 2.5.0
+      '@jspm/generator': 2.5.1
       cac: 6.7.14
       ora: 8.2.0
       picocolors: 1.1.1

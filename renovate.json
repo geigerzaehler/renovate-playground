@@ -18,7 +18,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": ["importmap.json"],
+      "fileMatch": ["importmap.json"],
       "depTypeTemplate": "dependencies",
       "datasourceTemplate": "npm",
       "matchStrings": [

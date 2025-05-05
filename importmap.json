@@ -5,7 +5,7 @@
     "production"
   ],
   "imports": {
-    "@shoelace-style/shoelace": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.20.1/dist/shoelace.js"
+    "@shoelace-style/shoelace": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.20.0/dist/shoelace.js"
   },
   "scopes": {
     "https://ga.jspm.io/": {

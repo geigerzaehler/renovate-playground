@@ -6,7 +6,7 @@
     "jquery": "=3.7.0"
   },
   "devDependencies": {
-    "jspm": "^3.3.4"
+    "jspm": "^4.0.0"
   },
   "packageManager": "pnpm@10.10.0",
   "pnpm": {

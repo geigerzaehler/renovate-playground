@@ -11,7 +11,7 @@
   "packageManager": "pnpm@10.10.0",
   "pnpm": {
     "overrides": {
-      "@jspm/generator": "2.5.0"
+      "@jspm/generator": "2.6.1"
     }
   }
 }

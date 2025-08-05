@@ -12,11 +12,11 @@ importers:
   .:
     dependencies:
       '@shoelace-style/shoelace':
-        specifier: '=2.20.0'
-        version: 2.20.0(@floating-ui/utils@0.2.9)(@types/react@19.1.2)
+        specifier: '=2.20.1'
+        version: 2.20.1(@floating-ui/utils@0.2.9)(@types/react@19.1.2)
       jquery:
-        specifier: '=3.7.0'
-        version: 3.7.0
+        specifier: '=3.7.1'
+        version: 3.7.1
     devDependencies:
       jspm:
         specifier: ^3.3.4
@@ -224,8 +224,8 @@ packages:
   '@shoelace-style/localize@3.2.1':
     resolution: {integrity: sha512-r4C9C/5kSfMBIr0D9imvpRdCNXtUNgyYThc4YlS6K5Hchv1UyxNQ9mxwj+BTRH2i1Neits260sR3OjKMnplsFA==}
 
-  '@shoelace-style/shoelace@2.20.0':
-    resolution: {integrity: sha512-Qq/kPtWC//HVyHX6EZ/i5y9zTMORjqV4lrxU2sbHLh+qdc9DlroYVSSqa2eqkmSzeLO+gHPZrjYmxDTja85iAA==}
+  '@shoelace-style/shoelace@2.20.1':
+    resolution: {integrity: sha512-FSghU95jZPGbwr/mybVvk66qRZYpx5FkXL+vLNpy1Vp8UsdwSxXjIHE3fsvMbKWTKi9UFfewHTkc5e7jAqRYoQ==}
     engines: {node: '>=14.17.0'}
 
   '@tootallnate/once@1.1.2':
@@ -421,8 +421,8 @@ packages:
     resolution: {integrity: sha512-mE00Gnza5EEB3Ds0HfMyllZzbBrmLOX3vfWoj9A9PEnTfratQ/BcaJOuMhnkhjXvb2+FkY3VuHqtAGpTPmglFQ==}
     engines: {node: '>=18'}
 
-  jquery@3.7.0:
-    resolution: {integrity: sha512-umpJ0/k8X0MvD1ds0P9SfowREz2LenHsQaxSohMZ5OMNEU2r0tf8pdeEFTHMFxWVxKNyU9rTtK3CWzUCTKJUeQ==}
+  jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -915,7 +915,7 @@ snapshots:
 
   '@shoelace-style/localize@3.2.1': {}
 
-  '@shoelace-style/shoelace@2.20.0(@floating-ui/utils@0.2.9)(@types/react@19.1.2)':
+  '@shoelace-style/shoelace@2.20.1(@floating-ui/utils@0.2.9)(@types/react@19.1.2)':
     dependencies:
       '@ctrl/tinycolor': 4.1.0
       '@floating-ui/dom': 1.7.0
@@ -1112,7 +1112,7 @@ snapshots:
 
   is-unicode-supported@2.1.0: {}
 
-  jquery@3.7.0: {}
+  jquery@3.7.1: {}
 
   js-tokens@4.0.0: {}
 
